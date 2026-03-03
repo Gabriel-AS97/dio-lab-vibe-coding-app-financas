@@ -1,132 +1,10 @@
 # 💸 App de Finanças Pessoais com Vibe Coding (Poupaí)
 
-PRD refinado no Copilot Web:
+---
 
-```
-📝 PRD – Projeto Poupaí
+## 📝 PRD Refinado no Copilot Web
 
-Contexto
-Aplicativo de organização de finanças pessoais via conversas em linguagem natural, eliminando a complexidade de planilhas e formulários. O objetivo é que qualquer pessoa consiga controlar seus gastos de forma simples e intuitiva, apenas conversando com o app.
-
-Problema
-Apps atuais exigem muita entrada manual e não se adaptam ao usuário iniciante. Isso desmotiva quem quer começar a organizar suas finanças.
-
-Objetivo
-Oferecer uma experiência prática e acessível, onde o usuário fala sobre seus gastos e metas e recebe recomendações automáticas de economia.
-
-Público-Alvo
-Pessoas iniciantes no controle financeiro.
-
-Usuários que buscam praticidade e não querem lidar com planilhas complexas.
-
-Funcionalidades-Chave
-Registrar gastos via chat em linguagem natural.
-
-Classificação automática das transações.
-
-Definição e acompanhamento de metas financeiras.
-
-Recomendações de economia pelo “Agente Financeiro”.
-
-Relatórios simples e personalizados.
-
-Alternância entre Light Mode e Dark Mode: botão-chave que permite ao usuário mudar facilmente entre os modos de visualização.
-
-Observações Importantes
-Relatórios devem mostrar valores em BRL, totais por área e percentuais de uso.
-
-Visual minimalista, com suporte a light mode e dark mode.
-
-Interface user-friendly, acessível até para quem não entende nada de finanças.
-
-Importação de registros externos com análise automática e fallback para categoria “Outros”.
-
-Aplicar Design Universal:
-
-Garantir acessibilidade para diferentes perfis de usuários.
-
-Linguagem clara e inclusiva.
-
-Navegação simples e consistente.
-
-Compatibilidade com recursos de acessibilidade (ex.: leitores de tela).
-
-Aplicar Material Design:
-
-Uso de hierarquia visual clara (tipografia, cores e espaçamento para guiar o usuário).
-
-Feedback visual consistente (animações e transições que mostram ao usuário o que está acontecendo).
-
-Componentes padronizados para garantir uniformidade entre telas.
-
-Acessibilidade integrada (contraste adequado, legibilidade, suporte a leitores de tela).
-
-Minimalismo funcional: evitar excesso de elementos, mantendo foco na simplicidade e clareza.
-
-🚀 MVP – Plano Inicial
-
-Telas Principais
-
-Tela de Conversa
-
-Chat para registrar gastos e interagir com o Agente Financeiro.
-
-Sugestões automáticas de categorias.
-
-Tela de Metas
-
-Definir objetivos (ex.: poupar R$200/mês).
-
-Barra de progresso simples.
-
-Tela de Relatórios
-
-Visualização por área (mercado, lazer, delivery).
-
-Percentuais e valores gastos vs. planejados.
-
-Tela de Importação
-
-Upload de lista de registros.
-
-Classificação automática + confirmação do usuário.
-
-Tela de Configurações
-
-Botão-chave para alternar entre light mode e dark mode.
-
-Ajustes de acessibilidade (tamanho da fonte, contraste).
-
-Recursos Necessários
-
-NLP (Processamento de Linguagem Natural) para interpretar entradas do usuário.
-
-Banco de dados simples para armazenar transações e metas.
-
-Motor de categorização automática com fallback para “Outros”.
-
-UI minimalista com suporte a light/dark mode.
-
-Princípios de Design Universal e Material Design aplicados em toda a interface.
-
-Validação Inicial
-
-Testar com grupo pequeno de usuários iniciantes e diversos perfis (incluindo pessoas com pouca familiaridade tecnológica).
-
-Medir:
-
-Facilidade de registrar gastos.
-
-Clareza dos relatórios.
-
-Utilidade das recomendações do Agente Financeiro.
-
-Inclusividade e acessibilidade da interface.
-
-Satisfação com alternância entre light/dark mode.
-```
-
-Interações com o Lovable:
+## 📸 Interações com o Lovable
 
 > Crie um app de finanças pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 
@@ -153,75 +31,40 @@ Ao criar um registro recorrente, seja de entrada ou saída, faça com que todos 
 
 > Ao clicar pra editar e excluir um registro, caso ele seja recorrente… crie uma caixa de diálogo perguntando ao usuário se quer editar ou excluir apenas o registro selecionado ou todos os registros da recorrência
 
-Resultado final no Lovable: https://app-poupai.lovable.app
+**Resultado final no Lovable:**  
+[https://app-poupai.lovable.app](https://app-poupai.lovable.app)
 
 <img width="1864" height="920" alt="image" src="https://github.com/user-attachments/assets/318026f4-d87e-4c8f-9c28-8740d8b17ca8" />
 
-# 📱 Poupaí – Assistente Financeiro com IA
+---
+
+## 📱 Resumo do App – Poupaí
 
 O **Poupaí** é um aplicativo de organização de finanças pessoais que funciona por meio de conversas em linguagem natural.  
 Ele foi projetado para ser simples, acessível e inclusivo, seguindo os princípios de **Design Universal** e **Material Design**.
 
----
+### ✨ Funcionalidades Principais
+- **Chat Financeiro**: registro de gastos via conversa, classificação automática e dicas do Agente Financeiro IA.  
+- **Metas Financeiras**: criação e acompanhamento de objetivos com barra de progresso.  
+- **Relatórios**: resumo mensal de receitas, despesas e saldo, com extrato detalhado por categoria.  
+- **Configurações**: alternância entre light/dark mode e opções de acessibilidade.  
 
-## ✨ Funcionalidades Principais
-
-### 💬 Chat Financeiro
-- Registro de gastos via conversa em linguagem natural.  
-- Classificação automática das transações.  
-- Interação com o **Agente Financeiro IA**, que dá dicas de economia e acompanha seu progresso.
-
-### 🎯 Metas Financeiras
-- Criação e acompanhamento de objetivos (ex.: viagem, poupança).  
-- Barra de progresso visual e percentual de conclusão.  
-- Exibição clara do valor já guardado, meta total e quanto falta.  
-
-### 📊 Relatórios
-- Resumo mensal de receitas, despesas e saldo.  
-- Quebra por categorias (moradia, lazer, mercado, etc.).  
-- Extrato detalhado das movimentações.  
-- Interface minimalista com indicadores visuais intuitivos.  
-
-### ⚙️ Configurações
-- Alternância entre **Light Mode** e **Dark Mode** via botão-chave.  
-- Ajustes de acessibilidade: tamanho da fonte e alto contraste.  
-- Informações da conta conectada e versão do app.  
-
----
-
-## 🎨 Princípios de Design
-- **Design Universal**: acessibilidade para diferentes perfis de usuários, linguagem clara, navegação simples e compatibilidade com leitores de tela.  
+### 🎨 Princípios de Design
+- **Design Universal**: acessibilidade para diferentes perfis de usuários, linguagem clara e compatibilidade com leitores de tela.  
 - **Material Design**: hierarquia visual clara, feedback interativo, componentes padronizados e minimalismo funcional.  
 
----
-
-## 🚀 MVP Validado
-O MVP já inclui:
-- Tela de **Chat** para registro de gastos.  
-- Tela de **Metas** para acompanhar objetivos financeiros.  
-- Tela de **Relatórios** para visualizar receitas, despesas e saldo.  
-- Tela de **Configurações** com alternância de tema e opções de acessibilidade.  
+### 🚀 MVP Validado
+Inclui telas de **Chat**, **Metas**, **Relatórios** e **Configurações**, todas acessíveis pela barra inferior de navegação.  
 
 ---
 
-## 📌 Navegação
-- **Chat** | **Metas** | **Relatórios** | **Ajustes**  
-Barra inferior simples e intuitiva para acessar todas as funcionalidades.
-
----
-
-## 🎯 Público-Alvo
-- Pessoas iniciantes no controle financeiro.  
-- Usuários que buscam praticidade sem planilhas complexas.  
-- Quem deseja organizar suas finanças de forma natural e acessível.  
-
-## Reflexão
+## 🤔 Reflexão
 
 ### O que funcionou bem?  
-O refinamento feito no Copilot ajudou muito a criar toda a base do app, também já fez a grande maioria das funcionalidades, também todas os erros e melhorias que eu solicitei foram feitas exatamente como eu queria
+O refinamento feito no Copilot ajudou muito a criar toda a base do app. A maioria das funcionalidades foi implementada e os erros/melhorias solicitados foram atendidos exatamente como esperado.  
 
 ### O que não funcionou como o esperado?  
-Gostaria de ter mais interações diárias gratuitas no Lovable, pois eu pedia 2 linhas de comando e já iam uns 3.5 créditos e não deu pra fazer tudo em 3 dias, precisei de mais
+Gostaria de ter mais interações diárias gratuitas no Lovable. Os créditos acabaram rápido e não deu para concluir tudo em 3 dias.  
 
-### O que aprendeu sobre conversar com IAs?
-Aprendi que é basicamente igual a conversar com uma pessoa, porém quanto mais detalhes eu ia dando, melhor ele ia me entendendo e fazer as melhorias e modificações conforme eu ia pedindo.
+### O que aprendeu sobre conversar com IAs?  
+Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes eu dava, melhor a IA entendia e aplicava as melhorias conforme solicitado.  
