@@ -4,6 +4,128 @@
 
 ## 📝 PRD Refinado no Copilot Web
 
+📝 PRD – Projeto Poupaí
+
+Contexto
+Aplicativo de organização de finanças pessoais via conversas em linguagem natural, eliminando a complexidade de planilhas e formulários. O objetivo é que qualquer pessoa consiga controlar seus gastos de forma simples e intuitiva, apenas conversando com o app.
+
+Problema
+Apps atuais exigem muita entrada manual e não se adaptam ao usuário iniciante. Isso desmotiva quem quer começar a organizar suas finanças.
+
+Objetivo
+Oferecer uma experiência prática e acessível, onde o usuário fala sobre seus gastos e metas e recebe recomendações automáticas de economia.
+
+Público-Alvo
+Pessoas iniciantes no controle financeiro.
+
+Usuários que buscam praticidade e não querem lidar com planilhas complexas.
+
+Funcionalidades-Chave
+Registrar gastos via chat em linguagem natural.
+
+Classificação automática das transações.
+
+Definição e acompanhamento de metas financeiras.
+
+Recomendações de economia pelo “Agente Financeiro”.
+
+Relatórios simples e personalizados.
+
+Alternância entre Light Mode e Dark Mode: botão-chave que permite ao usuário mudar facilmente entre os modos de visualização.
+
+Observações Importantes
+Relatórios devem mostrar valores em BRL, totais por área e percentuais de uso.
+
+Visual minimalista, com suporte a light mode e dark mode.
+
+Interface user-friendly, acessível até para quem não entende nada de finanças.
+
+Importação de registros externos com análise automática e fallback para categoria “Outros”.
+
+Aplicar Design Universal:
+
+Garantir acessibilidade para diferentes perfis de usuários.
+
+Linguagem clara e inclusiva.
+
+Navegação simples e consistente.
+
+Compatibilidade com recursos de acessibilidade (ex.: leitores de tela).
+
+Aplicar Material Design:
+
+Uso de hierarquia visual clara (tipografia, cores e espaçamento para guiar o usuário).
+
+Feedback visual consistente (animações e transições que mostram ao usuário o que está acontecendo).
+
+Componentes padronizados para garantir uniformidade entre telas.
+
+Acessibilidade integrada (contraste adequado, legibilidade, suporte a leitores de tela).
+
+Minimalismo funcional: evitar excesso de elementos, mantendo foco na simplicidade e clareza.
+
+🚀 MVP – Plano Inicial
+
+Telas Principais
+
+Tela de Conversa
+
+Chat para registrar gastos e interagir com o Agente Financeiro.
+
+Sugestões automáticas de categorias.
+
+Tela de Metas
+
+Definir objetivos (ex.: poupar R$200/mês).
+
+Barra de progresso simples.
+
+Tela de Relatórios
+
+Visualização por área (mercado, lazer, delivery).
+
+Percentuais e valores gastos vs. planejados.
+
+Tela de Importação
+
+Upload de lista de registros.
+
+Classificação automática + confirmação do usuário.
+
+Tela de Configurações
+
+Botão-chave para alternar entre light mode e dark mode.
+
+Ajustes de acessibilidade (tamanho da fonte, contraste).
+
+Recursos Necessários
+
+NLP (Processamento de Linguagem Natural) para interpretar entradas do usuário.
+
+Banco de dados simples para armazenar transações e metas.
+
+Motor de categorização automática com fallback para “Outros”.
+
+UI minimalista com suporte a light/dark mode.
+
+Princípios de Design Universal e Material Design aplicados em toda a interface.
+
+Validação Inicial
+
+Testar com grupo pequeno de usuários iniciantes e diversos perfis (incluindo pessoas com pouca familiaridade tecnológica).
+
+Medir:
+
+Facilidade de registrar gastos.
+
+Clareza dos relatórios.
+
+Utilidade das recomendações do Agente Financeiro.
+
+Inclusividade e acessibilidade da interface.
+
+Satisfação com alternância entre light/dark mode.
+
 ## 📸 Interações com o Lovable
 
 > Crie um app de finanças pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
